@@ -1,0 +1,40 @@
+.head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4f5665;
+  }
+}
+.btns {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  .btn1 {
+    font-weight: 500;
+    font-size: 16px;
+    color: $dark-color;
+  }
+  .btn2 {
+    padding: 13px 45px;
+    border: 1px solid #f53855;
+    border-radius: 50px;
+    a{
+      font-weight: 500;
+      font-size: 16px;
+      color: #f53855;
+    }
+    
+  }
+}

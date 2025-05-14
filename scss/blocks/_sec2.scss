@@ -1,0 +1,31 @@
+.sec2_info {
+  display: flex;
+  justify-content: space-between;
+  background: $primary-color;
+  h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 143%;
+    color: $dark-color;
+    max-width: 555px;
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 555px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #4f5665;
+    font-weight: 500;
+  }
+  li {
+
+    @extend %list;
+    p {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  margin-bottom: 100px;
+}

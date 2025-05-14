@@ -1,0 +1,61 @@
+.sec1_info {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: $dark-color;
+    font-weight: 700;
+    max-width: 555px;
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 555px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #4f5665;
+    font-weight: 500;
+  }
+  .btn3 {
+    padding: 17px 78px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 156%;
+    color: #fff;
+    background: #f53838;
+    border-radius: 10px;
+    max-width: 250px;
+    a {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 156%;
+      color: #fff;
+    }
+  }
+  margin-bottom: 103px;
+}
+.sec1_icons {
+  display: flex;
+  justify-content: space-around;
+
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    .num {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 120%;
+      color: $dark-color;
+    }
+  }
+  .line {
+    width: 2px;
+    height: 125px;
+    background: #eeeff2;
+  }
+}
